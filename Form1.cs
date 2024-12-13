@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace Tarea___Semana_3
 {
-    public partial class Form1 : Form
+    public partial class frmGestionDeBiblioteca : Form
     {
-        public Form1()
+        public frmGestionDeBiblioteca()
         {
             InitializeComponent();
         }
@@ -78,7 +78,7 @@ namespace Tarea___Semana_3
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void button1_Click(object sender, EventArgs e)

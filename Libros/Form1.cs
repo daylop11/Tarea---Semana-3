@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Tarea___Semana_3.Ventas
+namespace Tarea___Semana_3.Libros
 {
-    public partial class frmVentas : Form
+    public partial class frmNvTienda : Form
     {
-        public frmVentas()
+        public frmNvTienda()
         {
             InitializeComponent();
         }
@@ -22,12 +22,17 @@ namespace Tarea___Semana_3.Ventas
 
         }
 
-        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        private void textBox6_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void btnCerrar_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }

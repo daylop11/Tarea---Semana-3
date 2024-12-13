@@ -1,6 +1,6 @@
 ﻿namespace Tarea___Semana_3
 {
-    partial class Form1
+    partial class frmGestionDeBiblioteca
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -44,7 +44,7 @@
             this.textBox1.BackColor = System.Drawing.Color.Silver;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Perpetua Titling MT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(156, 44);
+            this.textBox1.Location = new System.Drawing.Point(135, 64);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(213, 23);
             this.textBox1.TabIndex = 0;
@@ -110,7 +110,7 @@
             this.btnVentas.UseVisualStyleBackColor = false;
             this.btnVentas.Click += new System.EventHandler(this.button5_Click);
             // 
-            // Form1
+            // frmGestionDeBiblioteca
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -122,7 +122,7 @@
             this.Controls.Add(this.btnAutores);
             this.Controls.Add(this.btnEditoriales);
             this.Controls.Add(this.textBox1);
-            this.Name = "Form1";
+            this.Name = "frmGestionDeBiblioteca";
             this.Text = "Gestion de Biblioteca";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

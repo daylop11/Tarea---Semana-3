@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Tarea___Semana_3.Empleados
+namespace Tarea___Semana_3.Autores
 {
-    public partial class frmTitulo : Form
+    public partial class FrmAutor : Form
     {
-        public frmTitulo()
+        public FrmAutor()
         {
             InitializeComponent();
         }
