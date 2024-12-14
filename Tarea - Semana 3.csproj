@@ -52,6 +52,18 @@
     <Compile Include="Autores\FrmAutor.Designer.cs">
       <DependentUpon>FrmAutor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Editoriales\frmNuevas editoriales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editoriales\frmNuevas editoriales.Designer.cs">
+      <DependentUpon>frmNuevas editoriales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Empleados\frmEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empleados\frmEmpleados.Designer.cs">
+      <DependentUpon>frmEmpleados.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +92,12 @@
     </Compile>
     <EmbeddedResource Include="Autores\FrmAutor.resx">
       <DependentUpon>FrmAutor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editoriales\frmNuevas editoriales.resx">
+      <DependentUpon>frmNuevas editoriales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empleados\frmEmpleados.resx">
+      <DependentUpon>frmEmpleados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -115,9 +133,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Editoriales\" />
-    <Folder Include="Empleados\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
